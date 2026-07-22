@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo 'int main\\(void\\){return 0;}')",
+      "Bash(gcc -std=c23 /tmp/t.c -o /tmp/t)"
+    ]
+  }
+}
