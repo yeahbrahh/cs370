@@ -6,9 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a CS370 assignment skeleton for implementing a **red-black tree backed by a custom memory pool allocator** in C. The `Makefile` defines the full intended build (sources, tests, fuzzer, sanitizer/valgrind targets), but the source tree it references does not exist yet:
 
-- `include/rbtree.h` — not yet created
-- `src/rbtree.c`, `src/pool.c` — not yet created
-- `tests/test_rbtree.c`, `tests/fault_alloc.c`, `tests/fuzz.c` — not yet created
+- `include/rbtree.h`
+- `src/rbtree.c`, `src/pool.c`
+- `tests/test_rbtree.c`, `tests/fault_alloc.c`, `tests/fuzz.c`
 
 `main.c` at the repo root (a no-op `main` returning 0) is a leftover stub and is **not** part of the Makefile build — it's not referenced by any target.
 
